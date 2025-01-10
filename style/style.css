@@ -285,3 +285,74 @@ header {
     letter-spacing: 0%;
     text-align: left;
 }
+
+/* section five style  */
+.section-five {
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+table {
+    width: 1280px;
+    height: 409px;
+    padding: 50px;
+    border: white;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Fira Sans;
+}
+
+th {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 23px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+
+td {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 23px;
+}
+
+.table-btn:hover{
+    background: rgb(54, 110, 76);
+    color: white;
+}
+
+.table-btn {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
