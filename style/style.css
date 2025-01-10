@@ -5,6 +5,13 @@
     background: none;
 }
 
+body,
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 120px;
+}
 
 /* shared styles */
 
@@ -17,6 +24,16 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.description-two {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .title-one {
@@ -59,6 +76,16 @@
     text-align: left;
 }
 
+.title-five {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 /* header styles  */
 
 .btn-one {
@@ -84,7 +111,8 @@ header {
     width: 1280px;
     display: flex;
     justify-content: space-between;
-    margin: 50px auto;
+    margin: 0px auto;
+    margin-top: 50px;
 }
 
 
@@ -94,7 +122,7 @@ header {
     height: 560px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    margin: 50px auto;
+    margin: 0px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -137,10 +165,11 @@ header {
 
 .section-two {
     width: 1280px;
-    margin: 50px auto;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
     gap: 32px;
+    border-radius: 20px;
 }
 
 .sec-two-first-div {
@@ -168,8 +197,9 @@ header {
     display: flex;
     flex-direction: column;
     width: 1280px;
-    margin: 50px auto;
+    margin: 0px auto;
     gap: 25px;
+    border-radius: 20px;
 }
 
 .sec-three-btn-one:hover {
@@ -266,7 +296,7 @@ header {
 
 .section-four {
     width: 1280px;
-    margin: 120px auto;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -274,6 +304,7 @@ header {
     background-repeat: no-repeat;
     background-position: top left;
     padding: 20px 0px;
+    border-radius: 20px;
 }
 
 .guru {
@@ -293,6 +324,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    border-radius: 20px;
 }
 
 table {
@@ -336,7 +368,7 @@ td {
     padding: 23px;
 }
 
-.table-btn:hover{
+.table-btn:hover {
     background: rgb(54, 110, 76);
     color: white;
 }
@@ -355,4 +387,124 @@ td {
     border-radius: 4px;
     background: rgb(198, 228, 214);
     cursor: pointer;
+}
+
+
+/* section six style  */
+.sec-six-img {
+    border-radius: 20px;
+}
+
+.section-six {
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 20px;
+}
+
+.sec-six-first-div {
+    display: flex;
+    gap: 50px;
+
+
+}
+
+.sec-six-btn:hover {
+    background: rgb(2, 51, 39);
+}
+
+.sec-six-btn {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    padding: 13px 26px 13px 26px;
+    cursor: pointer;
+}
+
+.sec-six-sub-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* section seven style  */
+
+.section-seven {
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.taka:hover {
+    background-color: rgb(198, 228, 214);
+    border: 1px solid rgba(14, 14, 14, 0.8);
+}
+
+.taka {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+    border: 1px transparent;
+    border-radius: 20px;
+    box-shadow: 1px 1px rgba(14, 14, 14, 0.15);
+    cursor: pointer;
+}
+
+.taka-div {
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+
+}
+
+.other-amount {
+    color: rgba(14, 14, 14, 0.89);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 400px;
+    border-radius: 5px;
+    background-color: rgb(252, 245, 236);
+    box-shadow: 1px 1px rgba(14, 14, 14, 0.15);
+}
+.other-amount-div{
+    width: 1032px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* section eight style  */
+.section-eight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.footer-div{
+    display: flex;
+    gap: 20px;
 }
