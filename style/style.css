@@ -6,7 +6,6 @@
 }
 
 
-
 /* shared styles */
 
 
@@ -109,22 +108,31 @@ header {
 
 
 
-
+.btn-two:hover{
+    background-color: rgb(198, 228, 214);
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 106, 80);
+}
 
 .btn-two {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 106, 80);
+    
     font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
+    border: 1px solid black;
     border-radius: 8px;
-    background: rgb(0, 106, 80);
     padding: 17px 34px 17px 34px;
+    cursor: pointer;
 }
 
-/* section three style  */
+
+
+/* section two style  */
 
 .section-two {
     width: 1280px;
@@ -143,7 +151,7 @@ header {
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    background: rgb(255, 255, 255);
+    background: rgba(248, 233, 214, 0.692);
     padding: 25px;
     box-shadow: 2px 2px solid rgba(14, 14, 14, 0.15);
     display: flex;
@@ -151,4 +159,102 @@ header {
     flex-direction: column;
     align-items: left;
     gap: 16px;
+}
+
+/* section three style  */
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 50px auto;
+    gap: 25px;
+}
+
+.sec-three-btn-one:hover{
+    background-color: rgb(24, 56, 112);
+}
+
+.sec-three-btn-one {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    cursor: pointer;
+}
+
+.sec-three-btn-two:hover{
+    background-color: rgb(4, 83, 48);
+}
+
+.sec-three-btn-two {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    padding: 11px 20px 11px 20px;
+    cursor: pointer;
+}
+
+.sec-three-btn-three:hover{
+    background-color: rgb(177, 136, 39);
+}
+
+.sec-three-btn-three {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    padding: 11px 20px 11px 20px;
+    cursor: pointer;
+}
+
+.sec-three-first-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.sec-three-first-sub-div {
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 32px;
+
+}
+.sec-three-second-sub-div {
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 32px;
+
+}
+.sec-three-third-sub-div {
+    border-radius: 16px;
+    background: rgb(248, 223, 165);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 32px;
+
 }
