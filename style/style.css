@@ -405,8 +405,18 @@ td {
 
 
 /* section six style  */
-.sec-six-img {
+
+.daily-star-logo {
+    width: 150px;
+    height: 40px;
+}
+
+.sec-six-img,
+.sec-six-img-two,
+.sec-six-img-three {
     border-radius: 20px;
+    width: 408px;
+    height: 306px;
 }
 
 .section-six {
@@ -475,13 +485,12 @@ td {
 .taka {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
-    font-size: 40px;
+    font-size: 39px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 47px;
     letter-spacing: 0%;
     text-align: left;
     padding: 40px;
-    border: 1px transparent;
     border-radius: 20px;
     box-shadow: 2px 2px rgba(14, 14, 14, 0.15);
     cursor: pointer;
@@ -507,18 +516,75 @@ td {
     background-color: rgb(252, 245, 236);
     box-shadow: 2px 2px rgba(14, 14, 14, 0.15);
 }
-.other-amount-div{
+
+.other-amount-div {
     width: 1032px;
     height: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
+}
+
+/* section seven 1 style  */
+.section-seven-1 {
+    width: 1280px;
+    height: 395px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: rgb(161, 192, 178);
+    box-shadow: 2px 2px rgba(14, 14, 14, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sec-seven-1-div{
+    display: flex;
+
+}
+
+.sec-seven-1-input {
+    width: 600px;
+    color: rgba(5, 5, 5, 0.63);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    margin-right: 0px;
+    border: none;
+}
+
+.sec-seven-1-btn:hover{
+    background: rgb(3, 68, 52);
+}
+
+.sec-seven-1-btn {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 17px 34px 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    margin-left: 0px;
+    cursor: pointer;
+    border: none;
 }
 
 
 /* section eight style  */
-.section-eight{
+.section-eight {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -531,7 +597,8 @@ td {
     margin: 0px auto;
     box-shadow: 1px 1px rgba(14, 14, 14, 0.15);
 }
-.footer-div{
+
+.footer-div {
     display: flex;
     gap: 20px;
 }
