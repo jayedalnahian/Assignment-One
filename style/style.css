@@ -596,9 +596,22 @@ td {
     width: 1280px;
     margin: 0px auto;
     box-shadow: 1px 1px rgba(14, 14, 14, 0.15);
+    margin-bottom: 50px;
 }
-
+.footer-div img:hover{
+    width: 40px;
+    height: 40px;
+}
 .footer-div {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.footer-sub-div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
